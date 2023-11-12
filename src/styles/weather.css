@@ -13,6 +13,7 @@
     padding: 1rem;
 }
 
+
 .search input{
     width: 30%;
     padding: 1rem;
@@ -37,7 +38,7 @@
 }
 
 .weather:before {
-    background: url("../images/cloudy.jpeg") no-repeat center center/cover;
+    background: url("../images/cloudy_background.jpeg") no-repeat center center/cover;
     content: '';
     position: absolute;
     width: 100%;

@@ -32,6 +32,7 @@ export default function Weather() {
         },
         timezone: 0,
     });
+    
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${key}`;
 
     const searchLocation = (event: KeyboardEvent<HTMLInputElement>) => {
