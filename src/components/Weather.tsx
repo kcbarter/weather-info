@@ -65,7 +65,7 @@ export default function Weather() {
                 <div className="current_weather">
                         <div>
                             {data.name ? <h1>{data.name}</h1> : null}
-                            {data.main.temp ? <h1 className={data.main.temp > 32 ? "temp_warm" : "temp_cold"}>{current_weather(data.main.temp)}°F</h1> : null}
+                            {data.main.temp ? <h1 className={current_weather(data.main.temp) > 32 ? "temp_warm" : "temp_cold"}>{current_weather(data.main.temp)}°F</h1> : null}
                         </div>
                         <div>
                             {data.weather[0].main ? <h3>{data.weather[0].main}</h3> : null}
